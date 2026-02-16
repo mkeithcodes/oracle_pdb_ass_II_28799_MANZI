@@ -4,10 +4,10 @@ Manzi keith. ID:28799
 # Task 1: Create a New Pluggable Database:
 I created a pluggable database called ke_pdb_28799
 
-CREATE PLUGGABLE DATABASE ke_pdb_28799
+`CREATE PLUGGABLE DATABASE ke_pdb_28799
 ADMIN USER admin_ke IDENTIFIED BY "kePass123"
 FILE_NAME_CONVERT = ('C:\app\oracle\oradata\ORCL\pdbseed\', 
-                     'C:\app\oracle\oradata\ORCL\ke_pdb_28799\');
+                     'C:\app\oracle\oradata\ORCL\ke_pdb_28799\');`
 
 
 # Task 2: Create and Delete a PDB
